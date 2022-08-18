@@ -48,11 +48,11 @@
 
 <!-- home section starts -->
 <section class="home">
-<div class="home-slider">
-<div class="w">
+<div class="swiper home-slider">
+<div class="swiper-wrapper">
 
 
-   <div class="slide" style="background-color: #b300b3">
+   <div class="swiper-slide" style="background-color: #b300b3">
          <div class="content">
            <span>explore,discover,travel</span>
            <h3>travel around the world</h3>
@@ -61,7 +61,7 @@
    </div>
 
 
-   <div class="slide" style="background-color: #cd00cd">
+   <div class="swiper-slide" style="background-color: #cd00cd">
          <div class="content">
            <span>explore,discover,travel</span>
            <h3>discover new places</h3>
@@ -72,7 +72,7 @@
 
 
 
-   <div class="slide" style="background-color: #b300b3">
+   <div class="swiper-slide" style="background-color: #b300b3">
          <div class="content">
            <span>explore,discover,travel</span>
            <h3>make tour</h3>
@@ -82,6 +82,16 @@
 
 
 </div>
+
+
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+
+
+
+
+
+
 </div>
 
 </section>
