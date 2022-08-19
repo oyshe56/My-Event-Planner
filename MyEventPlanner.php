@@ -60,33 +60,41 @@
 <!-- header section ends -->
 
 <!-- home section starts -->
-<section class="home">
 
-<div class="container">
-            
 
-            <div id="carouselExampleInterval" class="carousel slide py-4" data-bs-ride="carousel">
 
-                <div class="carousel-inner text-center">
+<div id="carouselExampleInterval" class="carousel slide py-4" data-bs-ride="carousel" style="background-color:#ffb9ff">
+
+
+           
+
+            <div class="carousel-inner text-center">
 
 
 
                   <div class="carousel-item active" data-bs-interval="10000">
-                      <img src=".\images\home1.png" width="700" height ="400" class="center">
+                      <img src=".\images\home1.png" width="1200" height ="600" class="center">
                       <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
+                      <div class="centered1"><b><span>Give Surprises</b></span></div>
+                      <div class="centered2"><b><h3>plan,participate,enjoy </b></h3></div>
                       
                   </div>
 
                   <div class="carousel-item"  data-bs-interval="2000">
-                      <img src=".\images\home2.png" width="700" height ="400" class="center">
-                      <a href="combo.php" class="btn">discover more</a>
+                      <img src=".\images\home2.png" width="1200" height ="600" class="center">
+                      <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
+                      <div class="centered1"><b><span>Get the best taste</b></span></div>
+                      <div class="centered2"><b><h3>plan,participate,enjoy</b></h3></div>
+                      
 
 
                 </div>
 
                 <div class="carousel-item">
-                      <img src=".\images\home3.jfif" width="700" height ="400" class="center">
-                      <a href="combo.php" class="btn">discover more</a>
+                      <img src=".\images\home3.jfif" width="1200" height ="600" class="center">
+                      <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
+                      <div class="centered1"><b><span>Enjoy the Beat</b></span></div>
+                      <div class="centered2"><b><h3>plan,participate,enjoy</b></h3></div>
 
                 </div>
 
@@ -108,10 +116,10 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-        </div>
+           
+       
+                </div>
 
-</section>
 
 
 
@@ -165,6 +173,76 @@
 </section>
 
  <!-- service section ends -->
+
+
+<!-- home about section starts  -->
+
+<section class="home-about">
+
+   <div class="image">
+      <img src="images/about.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3>about us</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+      <a href="about.php" class="btn">read more</a>
+   </div>
+
+</section>
+
+<!-- home about section ends -->
+
+
+<!-- home packages section starts  -->
+
+<section class="home-packages">
+
+   <h1 class="heading-title"> our packages </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/pack1.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <a href="reservation.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/pack2.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <a href="reservation.php" class="btn">book now</a>
+         </div>
+      </div>
+      
+      <div class="box">
+         <div class="image">
+            <img src="images/pack3.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <a href="reservation.php" class="btn">book now</a>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="load-more"> <a href="combo.php" class="btn">load more</a> </div>
+
+</section>
+
+<!-- home packages section ends -->
+
  
 
 
