@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <title>My Event Planner</title>
     <!-- Required meta tags -->
@@ -16,11 +17,23 @@
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
+     <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!--font family-->
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>oyshe</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="port.css">
+    <!--<link rel="stylesheet" href="./fontawesome/css/all.min.css"> -->
 
     <!---->
 </head>
@@ -48,51 +61,41 @@
 
 <!-- home section starts -->
 <section class="home">
+
 <div class="swiper home-slider">
-<div class="swiper-wrapper">
 
+      <div class="swiper-wrapper">
 
-   <div class="swiper-slide" style="background-color: #b300b3">
-         <div class="content">
-           <span>explore,discover,travel</span>
-           <h3>travel around the world</h3>
-           <a href="combo.php" class="btn">discover more </a>
+         <div class="swiper-slide slide" style="background:url(images/home1.png) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>travel arround the world</h3>
+               <a href="combo.php" class="btn">discover more</a>
+            </div>
          </div>
-   </div>
 
-
-   <div class="swiper-slide" style="background-color: #cd00cd">
-         <div class="content">
-           <span>explore,discover,travel</span>
-           <h3>discover new places</h3>
-           <a href="combo.php" class="btn">discover more </a>
+         <div class="swiper-slide slide" style="background:url(images/home2.png) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>discover the new places</h3>
+               <a href="combo.php" class="btn">discover more</a>
+            </div>
          </div>
-   </div>
 
-
-
-
-   <div class="swiper-slide" style="background-color: #b300b3">
-         <div class="content">
-           <span>explore,discover,travel</span>
-           <h3>make tour</h3>
-           <a href="decoration.php" class="btn">discover more </a>
+         <div class="swiper-slide slide" style="background:url(images/home3.jfif) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>make your tour worthwhile</h3>
+               <a href="combo.php" class="btn">discover more</a>
+            </div>
          </div>
+         
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
    </div>
-
-
-</div>
-
-
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-
-
-
-
-
-
-</div>
 
 </section>
 
