@@ -73,8 +73,8 @@
 
                   <div class="carousel-item active" data-bs-interval="10000">
                       <img src=".\images\home1.png" width="700" height ="400" class="center">
-                      <a href="combo.php" class="btn">discover more</a>
-
+                      <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
+                      
                   </div>
 
                   <div class="carousel-item"  data-bs-interval="2000">
