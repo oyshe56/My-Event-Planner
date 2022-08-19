@@ -62,40 +62,54 @@
 <!-- home section starts -->
 <section class="home">
 
-<div class="swiper home-slider">
+<div class="container">
+            
 
-      <div class="swiper-wrapper">
+            <div id="carouselExampleInterval" class="carousel slide py-4" data-bs-ride="carousel">
 
-         <div class="swiper-slide slide" style="background:url(images/home1.png) no-repeat">
-            <div class="content">
-               <span>explore, discover, travel</span>
-               <h3>travel arround the world</h3>
-               <a href="combo.php" class="btn">discover more</a>
+                <div class="carousel-inner text-center">
+
+
+
+                  <div class="carousel-item active" data-bs-interval="10000">
+                      <img src=".\images\home1.png" width="700" height ="400" class="center">
+                      <a href="combo.php" class="btn">discover more</a>
+
+                  </div>
+
+                  <div class="carousel-item"  data-bs-interval="2000">
+                      <img src=".\images\home2.png" width="700" height ="400" class="center">
+                      <a href="combo.php" class="btn">discover more</a>
+
+
+                </div>
+
+                <div class="carousel-item">
+                      <img src=".\images\home3.jfif" width="700" height ="400" class="center">
+                      <a href="combo.php" class="btn">discover more</a>
+
+                </div>
+
+
+
+
+
+
+                
+
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
-         </div>
-
-         <div class="swiper-slide slide" style="background:url(images/home2.png) no-repeat">
-            <div class="content">
-               <span>explore, discover, travel</span>
-               <h3>discover the new places</h3>
-               <a href="combo.php" class="btn">discover more</a>
-            </div>
-         </div>
-
-         <div class="swiper-slide slide" style="background:url(images/home3.jfif) no-repeat">
-            <div class="content">
-               <span>explore, discover, travel</span>
-               <h3>make your tour worthwhile</h3>
-               <a href="combo.php" class="btn">discover more</a>
-            </div>
-         </div>
-         
-      </div>
-
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-
-   </div>
+        </div>
 
 </section>
 
