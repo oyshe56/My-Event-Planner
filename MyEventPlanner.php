@@ -244,6 +244,18 @@
 <!-- home packages section ends -->
 
  
+<!-- home offer section starts  -->
+
+<section class="home-offer">
+   <div class="content">
+      <h2>upto 50% off</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
+      <a href="reservation.php" class="btn">Make Your Reservation</a>
+   </div>
+</section>
+
+<!-- home offer section ends -->
+
 
 
  <!-- footer section starts  -->
