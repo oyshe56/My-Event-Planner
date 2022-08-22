@@ -74,7 +74,7 @@
 
 
                   <div class="carousel-item active" data-bs-interval="10000">
-                      <img src=".\images\home1.png" width="1200" height ="600" class="center">
+                      <img src=".\images\home1.jpg" width="1200" height ="600" class="center">
                       <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
                       <div class="centered1"><b><span>Give Surprises</b></span></div>
                       <div class="centered2"><b><h3>plan,participate,enjoy </b></h3></div>
@@ -82,7 +82,7 @@
                   </div>
 
                   <div class="carousel-item"  data-bs-interval="2000">
-                      <img src=".\images\home2.png" width="1200" height ="600" class="center">
+                      <img src=".\images\home2.jpg" width="1200" height ="600" class="center">
                       <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
                       <div class="centered1"><b><span>Get the best taste</b></span></div>
                       <div class="centered2"><b><h3>plan,participate,enjoy</b></h3></div>
@@ -92,7 +92,7 @@
                 </div>
 
                 <div class="carousel-item">
-                      <img src=".\images\home3.jfif" width="1200" height ="600" class="center">
+                      <img src=".\images\home3.jpg" width="1200" height ="600" class="center">
                       <div class="centered"><a href="combo.php" class="btn">discover more</a></div>
                       <div class="centered1"><b><span>Enjoy the Beat</b></span></div>
                       <div class="centered2"><b><h3>plan,participate,enjoy</b></h3></div>
