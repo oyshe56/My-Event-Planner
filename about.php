@@ -45,7 +45,7 @@
  </section>
  
 
- <div class="heading" style="background:url(images/aboutBG.png) no-repeat">
+ <div class="heading" style="background:url(images/optionsBG.jpg) no-repeat">
    <h1>about us</h1>
 </div>
 

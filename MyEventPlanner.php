@@ -33,6 +33,7 @@
     <title>oyshe</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="port.css">
+    
     <!--<link rel="stylesheet" href="./fontawesome/css/all.min.css"> -->
 
     <!---->
@@ -130,7 +131,7 @@
 
 
  
- <!-- service section starts -->
+<!-- service section starts -->
  
  <section class="services">
 
@@ -306,22 +307,6 @@
  
  <!-- footer section ends -->
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

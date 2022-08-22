@@ -45,7 +45,7 @@
  </section>
  
 
- <div class="heading" style="background:url(images/reservation.jpg) no-repeat">
+ <div class="heading" style="background:url(images/optionsBG.jpg) no-repeat">
    <h1>Create Your Event</h1>
 </div>
 
