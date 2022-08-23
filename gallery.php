@@ -45,7 +45,7 @@
  </section>
  
 
- <div class="heading">
+ <div class="heading" style="background:url(images/optionsBG.jpg) no-repeat">
    <h1>Gallery</h1>
 </div>
 
