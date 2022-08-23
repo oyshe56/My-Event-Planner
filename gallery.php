@@ -31,10 +31,10 @@
 
 <section class="header">
 
-    <a href="home.php" class="logo">MyEventPlanner</a>
+    <a href="MyEventPlanner.php" class="logo">MyEventPlanner</a>
  
     <nav class="navbar">
-       <a href="home.php">Home</a>
+       <a href="MyEventPlanner.php">Home</a>
        <a href="about.php">About Us</a>
        <a href="services.php">Services</a>
        <a href="gallery.php">Gallery</a>
