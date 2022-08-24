@@ -10,10 +10,12 @@
 
     <!-- swiper css link  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
+         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>oyshe</title>
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
 
@@ -21,8 +23,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+     
 
+   
     <!---->
+
+    <style>
+img {
+  border-radius: 50%;
+}
+</style>
 </head>
 
 <body>
@@ -54,32 +64,26 @@
 
 <!-- about section starts  -->
 
-<section class="about">
+<section id="about" >
+        
 
-   <div class="image">
-      <img src="images/about.jpg" alt="">
-   </div>
 
-   <div class="content">
-      <h3>why choose us?</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
-      <div class="icons-container">
-         <div class="icons">
-            <i class="fas fa-map"></i>
-            <span>top destinations</span>
-         </div>
-         <div class="icons">
-            <i class="fas fa-hand-holding-usd"></i>
-            <span>affordable price</span>
-         </div>
-         <div class="icons">
-            <i class="fas fa-headset"></i>
-            <span>24/7 guide service</span>
-         </div>
-      </div>
-   </div>
+	<div class="about-row"   >
+        
+           
 
+		<div class="about-left-col" >
+			<h1><span id="Ash">Why Choose Us</span></h1>
+
+			<p>
+			Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
+			</p>
+			
+		</div>
+		<div class="about-right-col"  >
+			<img src="images/about.jpg"  height="500">
+		</div>
+	</div>
 </section>
 
 <!-- about section ends -->
@@ -87,101 +91,100 @@
 
 <!-- reviews section starts  -->
 
-<section class="reviews">
+<section class="review">
 
-   <h1 class="heading-title"> clients reviews </h1>
 
-   <div class="swiper reviews-slider">
 
-      <div class="swiper-wrapper">
 
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
+ <div id="carouselExampleInterval" class="carousel slide py-4" data-bs-ride="carousel" style="background-color:#fff">
+
+ 
+
+      <div class="carousel-inner text-center">
+      <h1><span id="Ash">Client review</span></h1>
+
+
+
+
+              <div class="carousel-item active" data-bs-interval="10000">
+
+                 <div class="review-row"   >
+
+                   <div class="review-left-col" >
+			             <h1><span id="Ash">hhhhh</span></h1>
+
+			             <p>
+			               Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
+			             </p>
+			
+		            </div>
+
+		            <div class="review-right-col"  >
+			              <img src="images/pic-3.jpg"  width="300" height="300">
+		            </div>
+
+      
+                </div>
+
+          
+          
+             </div>
+
+            <div class="carousel-item"  data-bs-interval="2000">
+              <div class="review-row"   >
+                  <div class="review-left-col" >
+			             <h1><span id="Ash">ffff</span></h1>
+
+			                    <p>
+			                        Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
+			                    </p>
+			
+		            </div>
+
+		            <div class="review-right-col"  >
+			                       <img src="images/pic-2.jpg"  width="300" height="300">
+		            </div>
+              </div>
+
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-1.jpg" alt="">
-         </div>
 
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus et suscipit optio similique totam aut laborum ullam sequi! In!</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-2.jpg" alt="">
-         </div>
+    <div class="carousel-item">
+               <div class="review-row"   >
+                      <div class="review-left-col" >
+			                     <h1><span id="Ash">yyyy</span></h1>
 
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim deserunt, ab at ea iste odio placeat doloribus eum dolores tempore obcaecati, dolore esse aperiam. Excepturi ad quo distinctio, dignissimos voluptate, dolores, saepe animi eum atque sint esse ab exercitationem!</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-3.jpg" alt="">
-         </div>
+			                         <p>
+			                             Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
+			                         </p>
+			
+		                 </div>
 
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae cum quibusdam odio dignissimos nemo?</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-4.jpg" alt="">
-         </div>
+		                 <div class="review-right-col"  >
+		 	                         <img src="images/pic-1.jpg"  width="300" height="300">
+		                  </div>
+                 </div>
 
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-5.jpg" alt="">
-         </div>
+    </div>
 
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-6.jpg" alt="">
-         </div>
 
-      </div>
 
-   </div>
 
-</section>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+    </div>
+    </section>
+
 
 <!-- reviews section ends -->
-
-
 
 
 

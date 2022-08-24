@@ -7,6 +7,7 @@
     --pink1:#ff67b3;
     --pink2:#ff1a8d;
     --pink3:#b3005a;
+    --purple: #9B51A0;
     --light-black:#777;
     --light-white:#fff9;
     --dark-bg:rgba(0,0,0,.7);
@@ -311,7 +312,7 @@
 }
 .home-about .content h3{
    font-size: 3rem;
-   color: var(--purple3);
+   color: var(--purple);
 
 }
 .home-about .content p{
@@ -340,6 +341,11 @@
 }
 
 .home-packages .box-container .box{
+
+
+
+
+
    border:var(--border);
    box-shadow: var(--box-shadow);
    background: white;
@@ -368,7 +374,7 @@
 
 .home-packages .box-container .box .content h3{
    font-size: 2.5rem;
-   color:var(--purple3);
+   color:var(--purple);
 }
 
 .home-packages .box-container .box .content p{
@@ -396,7 +402,7 @@
 .home-offer .content h2{
    font-size: 3.5rem;
    text-transform: uppercase;
-   color:var(--purple3);
+   color:var(--purple);
 }
 
 .home-offer .content p{
@@ -408,112 +414,117 @@
 
 
 
-.about{
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-   gap:3rem;
+#about{
+	padding: 200px 50px;
+          
 }
 
-.about .image{
-   flex:1 1 41rem;
-}
+.content{
+    width: 200px;
+    height  : 50px;
+     padding: 200px;
+    
 
-.about .image img{
-   width: 100%;
 }
-
-.about .content{
-   flex:1 1 41rem;
-   text-align: center;
+       
+.about-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
+.about-left-col{
+	flex-basis: 70%;
 
-.about .content h3{
-   font-size: 3rem;
-   color:var(--purple3);
 }
-
-.about .content p{
-   font-size: 1.5rem;
-   color:black;
-   line-height: 2;
-   padding:1rem 0;
+.about-right-col{
+	flex-basis: 50%;
+	text-align: center;
 }
-
-.about .content .icons-container{
-   margin-top: 2rem;
-   display: flex;
-   flex-wrap: wrap;
-   gap:1.5rem;
-   align-items: flex-end;
+.about-right-col img{
+	width: 70%;
+        height : 70%;
 }
-
-.about .content .icons-container .icons{
-   background: var(--purple2);
-   padding:2rem;
-   flex:1 1 16rem;
-}
-
-.about .content .icons-container .icons i{
-   font-size: 4rem;
-   margin-bottom: 2rem;
-   color:var(--purple1);
-}
-
-.about .content .icons-container .icons span{
-   font-size: 1.5rem;
-   color:white;
-   display:block;
+.about-left-col{
+	max-width: 400px;
+	margin:auto;
 }
 
 
-
-.reviews{
-   background: var(--light-bg);
+.about-left-col h1{
+    color: #9BA49E;
+    font-size: 50px;
 }
 
-.reviews .slide{
-   padding:2rem;
-   border:var(--border);
-   background: white;
-   text-align: center;
-   box-shadow: var(--box-shadow);
-   user-select: none;
+.about -left-col p{
+	font-size: 16px;
+	color: black;
+	padding-bottom: 40px;
+	
 }
 
-.reviews .slide .stars{
-   padding-bottom: .5rem;
-}
+.review .image img{
 
-.reviews .slide .stars i{
-   font-size: 1.7rem;
-   color:var(--purple3);
-}
 
-.reviews .slide p{
-   font-size: 1.5rem;
-   color:var(--light-black);
-   line-height: 2;
-   padding:1rem 0;
-}
-
-.reviews .slide h3{
-   font-size: 2rem;
-   color:var(--purple2);
-}
-
-.reviews .slide span{
-   font-size: 1.5rem;
-   color:var(--purple3);
-   display: block;
-}
-
-.reviews .slide img{
-   height: 7rem;
-   width: 7rem;
    border-radius: 50%;
-   margin-top: 1rem;
+
+
+
+
+
 }
+
+#review{
+	padding: 200px 50px;
+          
+}
+
+.content{
+    width: 200px;
+    height  : 50px;
+     padding: 200px;
+   
+
+}
+       
+.review-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.review-left-col{
+	flex-basis: 60%;
+
+}
+.review-right-col{
+	flex-basis: 50%;
+	text-align: center;
+}
+.review-right-col img{
+	width: 50%;
+        height : 70%;
+}
+.review-left-col{
+	max-width: 400px;
+	margin:auto;
+}
+
+
+.review-left-col h1{
+    color: #9BA49E;
+    font-size: 50px;
+}
+
+.review-left-col p{
+	font-size: 16px;
+	color: black;
+	padding-bottom: 40px;
+	
+}
+
+
+
 
 
 
@@ -568,7 +579,7 @@
 
 .packages .box-container .box .content h3{
    font-size: 2.5rem;
-   color: var(--purple3);
+   color: var(--purple);
 }
 
 .packages .box-container .box .content p{
@@ -635,7 +646,7 @@
 
 
 .footer{
-   background-color: var(--purple3) ;
+   background-color: var(--purple) ;
    padding: 10px 10px;
 }
 
