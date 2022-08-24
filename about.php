@@ -41,15 +41,15 @@ img {
 
 <section class="header">
 
-    <a href="MyEventPlanner.php" class="logo">MyEventPlanner</a>
+    <a href="MyEventPlanner.php" class="logo" style="text-decoration: none">MyEventPlanner</a>
  
     <nav class="navbar">
-       <a href="MyEventPlanner.php">Home</a>
-       <a href="about.php">About Us</a>
-       <a href="services.php">Services</a>
-       <a href="gallery.php">Gallery</a>
-       <a href="combo.php">Combo</a>
-       <a href="reservation.php">Reservation</a>
+       <a href="MyEventPlanner.php" style="text-decoration: none">Home</a>
+       <a href="about.php" style="text-decoration: none">About Us</a>
+       <a href="services.php" style="text-decoration: none">Services</a>
+       <a href="gallery.php" style="text-decoration: none">Gallery</a>
+       <a href="combo.php" style="text-decoration: none">Combo</a>
+       <a href="reservation.php" style="text-decoration: none">Reservation</a> 
     </nav>
 
  </section>
@@ -64,26 +64,32 @@ img {
 
 <!-- about section starts  -->
 
-<section id="about" >
-        
+<section class="about">
 
+   <div class="image">
+      <img src="images/about.jpg" alt="">
+   </div>
 
-	<div class="about-row"   >
-        
-           
+   <div class="content">
+      <h3>why choose us?</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
+      <div class="icons-container">
+         <div class="icons">
+         <i class="fa fa-calendar" aria-hidden="true"></i>
+            <span>Best events</span>
+         </div>
+         <div class="icons">
+            <i class="fas fa-hand-holding-usd"></i>
+            <span>affordable price</span>
+         </div>
+         <div class="icons">
+            <i class="fas fa-headset"></i>
+            <span>24/7 customer care</span>
+         </div>
+      </div>
+   </div>
 
-		<div class="about-left-col" >
-			<h1><span id="Ash">Why Choose Us</span></h1>
-
-			<p>
-			Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
-			</p>
-			
-		</div>
-		<div class="about-right-col"  >
-			<img src="images/about.jpg"  height="500">
-		</div>
-	</div>
 </section>
 
 <!-- about section ends -->
@@ -94,11 +100,8 @@ img {
 <section class="review">
 
 
-
-
  <div id="carouselExampleInterval" class="carousel slide py-4" data-bs-ride="carousel" style="background-color:#fff">
 
- 
 
       <div class="carousel-inner text-center">
       <h1><span id="Ash">Client review</span></h1>
@@ -111,7 +114,7 @@ img {
                  <div class="review-row"   >
 
                    <div class="review-left-col" >
-			             <h1><span id="Ash">hhhhh</span></h1>
+			             <h2><span id="Ash2">Client Name</span></h2>
 
 			             <p>
 			               Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
@@ -133,7 +136,7 @@ img {
             <div class="carousel-item"  data-bs-interval="2000">
               <div class="review-row"   >
                   <div class="review-left-col" >
-			             <h1><span id="Ash">ffff</span></h1>
+			             <h2><span id="Ash2">Client Name</span></h2>
 
 			                    <p>
 			                        Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
@@ -151,7 +154,7 @@ img {
     <div class="carousel-item">
                <div class="review-row"   >
                       <div class="review-left-col" >
-			                     <h1><span id="Ash">yyyy</span></h1>
+			                     <h2><span id="Ash2">Client Name</span></h2>
 
 			                         <p>
 			                             Lorem ipsum dolor sit amet,consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,feugiat cursus. Dictumst risus,sem egestas odio cras adipiscing vulputate.Nisi,risus in suscripit non. non commondo volutpate.Nisi,risus in suscript non. Non commodo volutpat, pharetra,vel.
@@ -160,7 +163,7 @@ img {
 		                 </div>
 
 		                 <div class="review-right-col"  >
-		 	                         <img src="images/pic-1.jpg"  width="300" height="300">
+		 	                         <img src="images/pic-1.jpg"  width="300" height="250">
 		                  </div>
                  </div>
 
@@ -190,49 +193,49 @@ img {
 
  <!-- footer section starts  -->
 
-<section class="footer">
+ <section class="footer">
 
-    <div class="box-container">
- 
-       <div class="box">
-          <h3>quick links</h3>
-          <a href="home.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Home</a>
-          <a href="about.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>About Us</a>
-          <a href="services.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Services</a>
-          <a href="gallery.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Gallery</a>
-          <a href="combo.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Combo</a>
-          <a href="reservation.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Reservation</a>
-       </div>
- 
-       <div class="box">
-          <h3>extra links</h3>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> ask questions</a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> about us</a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> privacy policy</a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> terms of use</a>
-       </div>
- 
-       <div class="box">
-          <h3>contact info</h3>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
-       </div>
- 
-       <div class="box">
-          <h3>follow us</h3>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-facebook-f"></i> facebook </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-twitter"></i> twitter </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-instagram"></i> instagram </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-linkedin"></i> linkedin </a>
-       </div>
- 
-    </div>
- 
-    <div class="credit"> created by <span>Jaasia & Oyshe</span> | all rights reserved! </div>
- 
- </section>
+<div class="box-container">
+
+   <div class="box">
+      <h3>quick links</h3>
+      <a href="home.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Home</a>
+      <a href="about.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>About Us</a>
+      <a href="services.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Services</a>
+      <a href="gallery.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Gallery</a>
+      <a href="combo.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Combo</a>
+      <a href="reservation.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Reservation</a>
+   </div>
+
+   <div class="box">
+      <h3>extra links</h3>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> ask questions</a>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> about us</a>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> privacy policy</a>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> terms of use</a>
+   </div>
+
+   <div class="box">
+      <h3>contact info</h3>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+      <a href="#"   style="text-decoration: none"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+   </div>
+
+   <div class="box">
+      <h3>follow us</h3>
+      <a href="#" style="text-decoration: none"> <i class="fab fa-facebook-f"></i> facebook </a>
+      <a href="#" style="text-decoration: none"> <i class="fab fa-twitter"></i> twitter </a>
+      <a href="#" style="text-decoration: none"> <i class="fab fa-instagram"></i> instagram </a>
+      <a href="#" style="text-decoration: none"> <i class="fab fa-linkedin"></i> linkedin </a>
+   </div>
+
+</div>
+
+<div class="credit"> created by <span>Jaasia & Oyshe</span> | all rights reserved! </div>
+
+</section>
  
  <!-- footer section ends -->
  

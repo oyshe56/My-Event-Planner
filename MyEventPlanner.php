@@ -45,17 +45,15 @@
 
 <section class="header">
 
-    <a href="MyEventPlanner.php" class="logo">MyEventPlanner</a>
+    <a href="MyEventPlanner.php " class="logo" style="text-decoration: none">MyEventPlanner</a>
  
     <nav class="navbar">
-       <a href="MyEventPlanner.php">Home</a>
-       <a href="about.php">About Us</a>
-       <a href="services.php">Services</a>
-       <a href="gallery.php">Gallery</a>
-       <a href="combo.php">Combo</a>
-       <a href="reservation.php">Reservation</a>
-
-       
+       <a href="MyEventPlanner.php" style="text-decoration: none">Home</a>
+       <a href="about.php" style="text-decoration: none">About Us</a>
+       <a href="services.php" style="text-decoration: none">Services</a>
+       <a href="gallery.php" style="text-decoration: none">Gallery</a>
+       <a href="combo.php" style="text-decoration: none">Combo</a>
+       <a href="reservation.php" style="text-decoration: none">Reservation</a>
     </nav>
  
  
@@ -210,7 +208,7 @@
             <img src="images/pack1.jpg" alt="">
          </div>
          <div class="content">
-            <h3>adventure & tour</h3>
+            <h3> plan & enjoy</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
             <a href="reservation.php" class="btn">book now</a>
          </div>
@@ -221,7 +219,7 @@
             <img src="images/pack2.jpg" alt="">
          </div>
          <div class="content">
-            <h3>adventure & tour</h3>
+            <h3> plan & enjoy</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
             <a href="reservation.php" class="btn">book now</a>
          </div>
@@ -232,7 +230,7 @@
             <img src="images/pack3.jpg" alt="">
          </div>
          <div class="content">
-            <h3>adventure & tour</h3>
+            <h3> plan & enjoy</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
             <a href="reservation.php" class="btn">book now</a>
          </div>
@@ -269,36 +267,36 @@
  
        <div class="box">
           <h3>quick links</h3>
-          <a href="home.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Home</a>
-          <a href="about.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>About Us</a>
-          <a href="services.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Services</a>
-          <a href="gallery.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Gallery</a>
-          <a href="combo.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Combo</a>
-          <a href="reservation.php" style="color:#ffb9ff"><i class="fas fa-angle-right"></i>Reservation</a>
+          <a href="home.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Home</a>
+          <a href="about.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>About Us</a>
+          <a href="services.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Services</a>
+          <a href="gallery.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Gallery</a>
+          <a href="combo.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Combo</a>
+          <a href="reservation.php"   style="text-decoration: none"><i class="fas fa-angle-right"></i>Reservation</a>
        </div>
  
        <div class="box">
           <h3>extra links</h3>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> ask questions</a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> about us</a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> privacy policy</a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-angle-right"></i> terms of use</a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> ask questions</a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> about us</a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> privacy policy</a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-angle-right"></i> terms of use</a>
        </div>
  
        <div class="box">
           <h3>contact info</h3>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+          <a href="#"   style="text-decoration: none"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
        </div>
  
        <div class="box">
           <h3>follow us</h3>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-facebook-f"></i> facebook </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-twitter"></i> twitter </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-instagram"></i> instagram </a>
-          <a href="#" style="color:#ffb9ff"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="#" style="text-decoration: none"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#" style="text-decoration: none"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#" style="text-decoration: none"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#" style="text-decoration: none"> <i class="fab fa-linkedin"></i> linkedin </a>
        </div>
  
     </div>
